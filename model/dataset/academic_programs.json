@@ -1,0 +1,2474 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the training orientation of the CSE program at VNUK?"
+      },
+      {
+        "role": "assistant",
+        "content": "The CSE program combines three tracks—application, research, and business—helping students adapt flexibly to diverse career environments."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the main objectives of the CSE program?"
+      },
+      {
+        "role": "assistant",
+        "content": "The major aims to build a solid computer science foundation, develop technical and communication skills, and foster responsibility, proactiveness, and lifelong learning."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What teaching language does the CSE program use?"
+      },
+      {
+        "role": "assistant",
+        "content": "All courses in the specialization are delivered entirely in English."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does the CSE program at VNUK last?"
+      },
+      {
+        "role": "assistant",
+        "content": "The program spans four academic years plus an additional half year of intensive internship."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits must CSE students earn to complete the program?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students must complete 152 credits counted toward graduation; total credits including electives and non-graded courses can reach up to 210."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is the CSE program structured?"
+      },
+      {
+        "role": "assistant",
+        "content": "The program is divided into general education, foundational courses, specialized courses, skills and internship, and a non-graded physical component."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the English name of Computer Science Engineering?"
+      },
+      {
+        "role": "assistant",
+        "content": "The official English name is Computer Science Engineering."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What soft-skill goals does the CSE program aim for?"
+      },
+      {
+        "role": "assistant",
+        "content": "The program emphasizes communication, teamwork, design thinking, and personal planning skills in an international context."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why does VNUK emphasize English-medium instruction in CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Because VNUK follows international standards, enabling students to integrate globally and access new knowledge faster."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the highlights of the CSE program at VNUK?"
+      },
+      {
+        "role": "assistant",
+        "content": "Highlights include the international curriculum, English-medium teaching, a 6-month internship, and a blended academic–industry–innovation focus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the CSE general education block?"
+      },
+      {
+        "role": "assistant",
+        "content": "The general education block totals 15 credits covering political theory and social foundations."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a law course in the general education group?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, General Law is included with 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Does the program include a Global Culture course?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Global Culture course is in the general education group to broaden cultural awareness."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which Marxist Leninist theory courses are included?"
+      },
+      {
+        "role": "assistant",
+        "content": "It includes philosophy, political economy, scientific socialism, Ho Chi Minh thought, and Party history."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do CSE students have to take Party History?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it is a mandatory 2-credit course in general education."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the key foundational courses in CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Key courses include introductory programming, basic Java, operating systems, data structures and algorithms, systems analysis, and database design."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the core portion of the major?"
+      },
+      {
+        "role": "assistant",
+        "content": "The foundational and core group totals 60 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits is the OOP course?"
+      },
+      {
+        "role": "assistant",
+        "content": "Object-Oriented Programming carries 5 credits and is a core course."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many operating systems courses do students take?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are two courses: Introduction to Operating System (2 credits) and an advanced Operating System course (5 credits)."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a course on networking and concurrency?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Networking and Concurrency course covers computer networks and concurrent processing."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Does the program teach AI?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Artificial Intelligence is a 5-credit course in the extended foundational block."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a cryptography course in CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the 3-credit Cryptography course introduces encryption and security techniques."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the key points of the CSE program at VNUK?"
+      },
+      {
+        "role": "assistant",
+        "content": "The CSE pathway focuses on training engineers to international standards, equipping scientific-technical foundations, soft skills, and self-learning ability to meet domestic and global demand."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What training goals does the CSE major target?"
+      },
+      {
+        "role": "assistant",
+        "content": "The program aims to develop a solid computer science base, strengthen professional and communication skills, and build responsibility and professionalism."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many total credits are required to graduate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students must earn at least 152 graded credits to graduate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which language of instruction does CSE at VNUK use?"
+      },
+      {
+        "role": "assistant",
+        "content": "The entire program is delivered in English."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does the course last?"
+      },
+      {
+        "role": "assistant",
+        "content": "The formal study lasts four years plus a six-month final internship."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which courses are included in the general education component?"
+      },
+      {
+        "role": "assistant",
+        "content": "Foundational courses include philosophy, political economy, scientific socialism, Party history, Ho Chi Minh thought, general law, and global culture."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the general education component?"
+      },
+      {
+        "role": "assistant",
+        "content": "The general knowledge component totals 15 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which core foundational courses are in the CSE curriculum?"
+      },
+      {
+        "role": "assistant",
+        "content": "Core foundational courses cover basic programming, Java, operating systems, OOP, systems analysis and data design, math for programming, networking and concurrency, data structures, AI, big data, cryptography, and others."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the foundational knowledge block of the major?"
+      },
+      {
+        "role": "assistant",
+        "content": "The foundational knowledge block of the major accounts for 60 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does the specialized knowledge block of CSE cover?"
+      },
+      {
+        "role": "assistant",
+        "content": "Specialized courses span advanced web development, mobile programming, software testing, information security, IoT, personal projects, project management, game development, 3D, and the capstone."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the specialized block?"
+      },
+      {
+        "role": "assistant",
+        "content": "The specialized block totals 83 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What soft skills are included in the program?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students train in academic skills, communication, applied informatics, design thinking, participate in technical projects, plus a 10-credit internship."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits cover soft skills and internship?"
+      },
+      {
+        "role": "assistant",
+        "content": "Soft skills and internship together make up 27 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is the physical education component counted?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are four sports courses totaling 4 credits, not counted in GPA."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the English program?"
+      },
+      {
+        "role": "assistant",
+        "content": "The academic English system has 21 credits including Writing, EAP 1-3, and English for IT."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What do first-year students study?"
+      },
+      {
+        "role": "assistant",
+        "content": "First year focuses on introductory programming, academic English, study skills, basic informatics, and some general and industry foundation courses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What do students study in the second year?"
+      },
+      {
+        "role": "assistant",
+        "content": "Second year centers on systems analysis, computer math, OOP, application development, data structures and algorithms, web, mobile, networking and concurrency, and political theory courses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What do students study in the third year?"
+      },
+      {
+        "role": "assistant",
+        "content": "Third year includes elective specialized courses, remaining political theory courses, and a long-term professional internship."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the main contents in the final year?"
+      },
+      {
+        "role": "assistant",
+        "content": "The final stage covers artificial intelligence, elective specialized courses, and the graduation thesis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the graduate outcomes for professional skills?"
+      },
+      {
+        "role": "assistant",
+        "content": "Graduates must work professionally, handle problems in economic-technical contexts, think critically, innovate, and uphold professional ethics."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the English requirement for graduation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students need B2 level English, equivalent to IELTS 6.0 or higher."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What criteria are required for graduation recognition?"
+      },
+      {
+        "role": "assistant",
+        "content": "To be eligible for graduation, students must complete required credits, achieve a minimum GPA of 2.0, fulfill tuition obligations, meet English standards, finish national defense–security education, and not violate regulations."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What jobs can CSE graduates pursue?"
+      },
+      {
+        "role": "assistant",
+        "content": "Graduates can work in software development, systems analysis, information system maintenance, research, teaching, or large-scale tech projects."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the current income advantage in the tech industry?"
+      },
+      {
+        "role": "assistant",
+        "content": "IT salaries in Vietnam often range from 20-30 million VND per month, and strong English speakers can earn above 1,000 USD at international firms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is EFU and who is it for?"
+      },
+      {
+        "role": "assistant",
+        "content": "EFU is a preparatory English program for students below the language requirement, boosting their foundation before studying in English."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the main objective of the EFU program?"
+      },
+      {
+        "role": "assistant",
+        "content": "EFU aims to help students reach IELTS 6.5 equivalence, master academic skills, and communicate confidently in an international learning environment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who must take the English placement test at VNUK?"
+      },
+      {
+        "role": "assistant",
+        "content": "All students without IELTS or with scores below 4.5 must take the placement test."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What score allows a student to skip EFU?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students with IELTS 4.5 or higher go directly to the Foundation stage without EFU."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How are the levels in VNUK's English placement test classified?"
+      },
+      {
+        "role": "assistant",
+        "content": "Levels range from Basic English 1 to EAP 3, spanning scores 80-170 and mapping from Pre A1 up to IELTS 6.0 equivalence."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do EAP 1, 2, and 3 differ?"
+      },
+      {
+        "role": "assistant",
+        "content": "EAP 1 builds academic writing and reading; EAP 2 focuses on reports and document analysis; EAP 3 completes comprehensive academic skills to international standards."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What distinguishes the CSE program at VNUK?"
+      },
+      {
+        "role": "assistant",
+        "content": "It is a state-supported, high-quality bachelor program aligned with international education standards."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What career readiness does CSE at VNUK focus on?"
+      },
+      {
+        "role": "assistant",
+        "content": "It trains computer scientists and engineers with strong technical foundations, soft skills, and lifelong learning habits for domestic and global markets."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does the program balance application, research, and business?"
+      },
+      {
+        "role": "assistant",
+        "content": "The curriculum intentionally blends application projects, research exposure, and business-oriented thinking to keep graduates versatile."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the total graduation credits for CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students need 152 credits to graduate, within an overall plan of up to 210 credits including electives and non-graded courses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the language of instruction for CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "English is the language of instruction across the CSE curriculum."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long is the CSE study duration including internship?"
+      },
+      {
+        "role": "assistant",
+        "content": "It spans four academic years plus a six-month final internship."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the five main curriculum components?"
+      },
+      {
+        "role": "assistant",
+        "content": "They include general education, foundational and core courses, specialized courses, soft skills with internship, and non-graded physical education."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which component is non-graded?"
+      },
+      {
+        "role": "assistant",
+        "content": "The physical education component is non-graded and not counted in GPA."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How are credits distributed across knowledge segments?"
+      },
+      {
+        "role": "assistant",
+        "content": "General knowledge has 41 credits, foundational 31, specialized 60, and internship plus thesis 20, totaling 152 graduation credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the combined credit plan including electives?"
+      },
+      {
+        "role": "assistant",
+        "content": "The plan can reach 210 credits when electives and non-graded courses are included."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What do students study in year one of CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Year one covers introductory programming, academic English, study skills, applied computer skills, and selected general and industry foundation modules."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is emphasized in year two of CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Year two emphasizes systems analysis, computer math, OOP, application development, data structures, web and mobile development, networking and concurrency, plus political theory courses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What happens in year three of CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Year three includes specialized electives, remaining political theory courses, and a long professional internship."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What do students complete in the final year?"
+      },
+      {
+        "role": "assistant",
+        "content": "The final year features artificial intelligence, additional specialized electives, and the graduation thesis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "When is the six-month internship scheduled?"
+      },
+      {
+        "role": "assistant",
+        "content": "The extended internship takes place in the third year as part of professional training."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What major project occurs at the end of the program?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students complete a Graduation Project worth 10 credits in the specialized block."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What professional behaviors are expected of graduates?"
+      },
+      {
+        "role": "assistant",
+        "content": "Graduates are expected to work professionally, communicate effectively, and collaborate across IT contexts."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How should graduates handle complex problems?"
+      },
+      {
+        "role": "assistant",
+        "content": "They should solve complex issues within economic, political, social, and legal contexts using IT and related disciplines."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What ethical standards are highlighted?"
+      },
+      {
+        "role": "assistant",
+        "content": "The program stresses integrity, critical thinking, innovation, and professional ethics and responsibility."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What English level must graduates reach?"
+      },
+      {
+        "role": "assistant",
+        "content": "Graduates must reach B2 equivalence, about IELTS 6.0 or higher."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What GPA is required for graduation?"
+      },
+      {
+        "role": "assistant",
+        "content": "A minimum cumulative GPA of 2.0 is required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which compliance items are needed before graduation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students must complete credits, meet English standards, finish physical and defense education, and clear tuition with no disciplinary violations."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who should join the English for University Programme (EFU)?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students who have not met the required English proficiency join EFU for foundational language training."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the goal of EFU?"
+      },
+      {
+        "role": "assistant",
+        "content": "EFU aims to raise students to around IELTS 6.5 equivalence with strong academic English skills."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What score range corresponds to Basic English 1?"
+      },
+      {
+        "role": "assistant",
+        "content": "Placement scores 80–99 place students into Basic English 1."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the IELTS equivalent for Basic English 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "Basic English 2 corresponds to roughly IELTS 3.0."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does Pre-sessional 1 focus on?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pre-sessional 1 builds basic academic reading and writing and introduces university learning styles."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the score range for Pre-sessional 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "Scores 130–139 place students into Pre-sessional 2, about IELTS 4.0."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the focus of Pre-sessional 3?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pre-sessional 3 prepares students for EAP with advanced academic skills and transitions around IELTS 4.5."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What score range maps to EAP 1?"
+      },
+      {
+        "role": "assistant",
+        "content": "Scores 147–159 align to EAP 1, roughly IELTS 5.0."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What score range maps to EAP 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "Scores 160–170 map to EAP 2, around IELTS 5.5."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the IELTS equivalent for EAP 3?"
+      },
+      {
+        "role": "assistant",
+        "content": "EAP 3 is equivalent to about IELTS 6.0."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is exempt from EAP courses?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students with IELTS 6.5 or higher are exempt from EAP courses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are allocated to internship and thesis?"
+      },
+      {
+        "role": "assistant",
+        "content": "Internship and thesis together account for 20 credits in the graduation plan."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are allocated to general knowledge electives?"
+      },
+      {
+        "role": "assistant",
+        "content": "General knowledge and electives together form part of the 41-credit common knowledge segment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the credit load for foundational industry knowledge?"
+      },
+      {
+        "role": "assistant",
+        "content": "Industry foundation modules contribute to the 31 credits in the foundational segment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many specialized credits must be completed?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students complete 60 credits of specialized knowledge modules."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are tied to the graduation project alone?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Graduation Project is a 10-credit capstone course."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the aim of Object Oriented Programming in the curriculum?"
+      },
+      {
+        "role": "assistant",
+        "content": "It builds abstraction, encapsulation, inheritance, and design skills crucial for later development courses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why is Networking and Concurrency included?"
+      },
+      {
+        "role": "assistant",
+        "content": "It prepares students for distributed systems and parallel processing challenges in modern computing."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What skills does Math for Computer Programming reinforce?"
+      },
+      {
+        "role": "assistant",
+        "content": "It strengthens mathematical reasoning used in algorithms, data structures, and software analysis."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does Software Engineering and HCI support students?"
+      },
+      {
+        "role": "assistant",
+        "content": "It blends engineering process knowledge with user-centered design to create usable systems."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the purpose of System Analysis and Database Design?"
+      },
+      {
+        "role": "assistant",
+        "content": "It trains students to model requirements and architect data solutions for information systems."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why does CSE include Cryptography?"
+      },
+      {
+        "role": "assistant",
+        "content": "Cryptography introduces security principles needed for protecting data and communications."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do Advanced Web courses extend basic web design?"
+      },
+      {
+        "role": "assistant",
+        "content": "They dive deeper into complex front-end and back-end techniques, scaling, and modern frameworks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What outcomes come from the Mobile Design and Development course?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students learn to architect, build, and deploy mobile apps across platforms with good UI/UX practices."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What practical experience does the Individual Project provide?"
+      },
+      {
+        "role": "assistant",
+        "content": "It lets students design and deliver a personal software project, applying accumulated skills."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does Development and Operations teach?"
+      },
+      {
+        "role": "assistant",
+        "content": "It introduces DevOps practices such as CI/CD, automation, and deployment pipelines."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why are communication skills included in CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "They enable students to present ideas, collaborate effectively, and work in diverse teams."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What does Personal Development Planning help students achieve?"
+      },
+      {
+        "role": "assistant",
+        "content": "It guides students to set goals, plan careers, and manage their own professional growth."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does Design Thinking benefit CSE students?"
+      },
+      {
+        "role": "assistant",
+        "content": "It fosters empathy, ideation, prototyping, and iterative problem-solving for user-centered solutions."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the aim of System Engineering Projects?"
+      },
+      {
+        "role": "assistant",
+        "content": "They let students practice engineering processes from requirements to delivery in team settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why is the 10-credit internship significant?"
+      },
+      {
+        "role": "assistant",
+        "content": "It immerses students in professional environments, bridging academic learning with industry practice."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the role of Physical Education in the program?"
+      },
+      {
+        "role": "assistant",
+        "content": "It supports student wellness and balance, though it is non-graded and outside GPA calculations."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many physical education modules must students complete?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students complete four non-graded PE modules."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why is Academic Writing required?"
+      },
+      {
+        "role": "assistant",
+        "content": "It builds formal writing skills essential for reports, research, and thesis work."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the progression of EAP courses?"
+      },
+      {
+        "role": "assistant",
+        "content": "EAP 1 builds academic foundations, EAP 2 advances reporting and analysis, and EAP 3 finalizes readiness for full English-medium study."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What happens if a student scores below IELTS 4.5?"
+      },
+      {
+        "role": "assistant",
+        "content": "They take the placement test and follow the appropriate EFU or Basic/Pre-sessional track before main studies."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can students with IELTS 5.5 join EAP 2 directly?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, an IELTS-equivalent of 5.5 aligns with EAP 2 placement."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why does VNUK require a placement test?"
+      },
+      {
+        "role": "assistant",
+        "content": "To place students into the correct English level ensuring they can succeed in an English-medium program."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What salary range is typical for IT roles in Vietnam?"
+      },
+      {
+        "role": "assistant",
+        "content": "Many IT roles range from 20 to 30 million VND per month, with higher pay for strong English skills."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does English proficiency affect salary prospects?"
+      },
+      {
+        "role": "assistant",
+        "content": "Strong English can lead to salaries above 1,000 USD at international companies."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which regions benefit from VNUK-trained IT talent?"
+      },
+      {
+        "role": "assistant",
+        "content": "The program supports Central Vietnam and broader markets needing skilled software professionals."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What core competencies should CSE graduates demonstrate?"
+      },
+      {
+        "role": "assistant",
+        "content": "They should design, implement, and maintain IT systems, plan projects, and communicate solutions effectively."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What industries can CSE graduates enter?"
+      },
+      {
+        "role": "assistant",
+        "content": "Graduates can work in software development, system analysis, IT consulting, research, education, and large tech projects."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does the program prepare students for research?"
+      },
+      {
+        "role": "assistant",
+        "content": "Through foundational theory, applied projects, and a capstone that can include research-oriented topics."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does the program support lifelong learning?"
+      },
+      {
+        "role": "assistant",
+        "content": "It builds habits of self-study, critical thinking, and continuous upskilling through projects and reflection."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is business orientation reflected in CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Courses like project management, best practices, and industry-focused modules embed business and process understanding."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What international standards influence CSE design?"
+      },
+      {
+        "role": "assistant",
+        "content": "The curriculum aligns with global CS engineering expectations and English-medium delivery to match international benchmarks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What happens if tuition is unpaid before graduation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students must clear all tuition obligations to be eligible for graduation recognition."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there disciplinary requirements for graduation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, students must not be under disciplinary action or legal violation at the time of graduation review."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why include national defense and security education?"
+      },
+      {
+        "role": "assistant",
+        "content": "It is a mandatory requirement for graduation as regulated by VNUK and national policy."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are tied to general knowledge and electives combined?"
+      },
+      {
+        "role": "assistant",
+        "content": "Together they sum to 41 credits of common knowledge requirements."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are allocated to specialized knowledge alone?"
+      },
+      {
+        "role": "assistant",
+        "content": "Specialized knowledge accounts for 60 credits within the major."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the credit load of the internship course?"
+      },
+      {
+        "role": "assistant",
+        "content": "The internship course carries 10 credits and sits in the Soft Skills & Internship component."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How are electives integrated across years?"
+      },
+      {
+        "role": "assistant",
+        "content": "Electives appear in general knowledge, industry foundation, and specialized selections, allowing customization each year."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does the program use English in class activities?"
+      },
+      {
+        "role": "assistant",
+        "content": "Lectures, assignments, presentations, and projects are conducted in English to build fluency."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is teamwork emphasized in CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "Group projects, system engineering projects, and the internship require collaborative planning and delivery."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What types of assessments are common?"
+      },
+      {
+        "role": "assistant",
+        "content": "Assessments include assignments, projects, presentations, exams, and capstone evaluations."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does the curriculum encourage innovation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Through design thinking, project-based learning, and exposure to emerging topics like AI, IoT, and security."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How are students prepared for the internship?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pre-internship courses in skills, communication, and project practice ready students for workplace expectations."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What support helps students reach IELTS 6.0+?"
+      },
+      {
+        "role": "assistant",
+        "content": "Layered English courses from Academic Writing through EAP 3 build the proficiency needed for graduation standards."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does the program address software quality?"
+      },
+      {
+        "role": "assistant",
+        "content": "Courses like Testing and Reliable Software and Best Practices teach quality assurance and reliable delivery."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is expected in the Graduation Project?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students must propose, design, implement, and defend a substantial software or system solution worth 10 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can the Graduation Project be research-oriented?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, students may choose research-focused topics aligned with faculty guidance."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is the Graduation Project assessed?"
+      },
+      {
+        "role": "assistant",
+        "content": "Assessment typically includes proposal, implementation, documentation, presentation, and defense."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What duration is the professional internship?"
+      },
+      {
+        "role": "assistant",
+        "content": "It is typically a six-month engagement counted as a 10-credit course."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What outcomes are expected from the internship?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students gain practical experience, apply academic knowledge, and build professional networks."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can internship performance affect graduation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, successful completion and evaluation of the internship are required for graduation credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many total courses cover physical education?"
+      },
+      {
+        "role": "assistant",
+        "content": "Four distinct courses cover physical education requirements."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which course introduces DevOps concepts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Development and Operations introduces CI/CD and deployment practices."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which course focuses on security beyond cryptography?"
+      },
+      {
+        "role": "assistant",
+        "content": "Information Security covers broader security practices, while Cryptography tackles encryption fundamentals."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which course addresses big data topics?"
+      },
+      {
+        "role": "assistant",
+        "content": "Big Data Analysis introduces large-scale data processing and analytics concepts."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which course blends human factors with software engineering?"
+      },
+      {
+        "role": "assistant",
+        "content": "Software Engineering and Human Computer Interaction integrates engineering processes with user experience design."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What happens if a student already holds IELTS 7.0?"
+      },
+      {
+        "role": "assistant",
+        "content": "They are exempt from EFU and EAP courses and can proceed directly to academic modules."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can students retake the placement test?"
+      },
+      {
+        "role": "assistant",
+        "content": "Policies vary, but placement aims to accurately match students to the correct English level for success."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many total credits are non-graded?"
+      },
+      {
+        "role": "assistant",
+        "content": "The four physical education courses total 4 non-graded credits not counted toward GPA."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many graded credits are required for graduation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students must complete 152 graded credits to meet graduation requirements."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Philosophy of Marxism and Leninism?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB23122, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Political Economics of Marxism and Leninism?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB32123, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Scientific Socialism?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB32124, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for History of the Communist Party of Vietnam?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB42125, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Ho Chi Minh Ideology?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB42152, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for General Law?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB12146, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Global Culture?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB12010, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Introduction to Computer Science and Programming?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB13054, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Introduction to Java Programming?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB13055, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Introduction to Operating System?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB12056, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Object Oriented Programming?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB25017, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for System Analysis and Database Design?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB25018, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Math for Computer Programming?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB25020, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Operation System?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB25021, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Networking and Concurrency?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB25019, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Data Structure and Algorithm_EM1?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB22024, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Software Engineering and Human Computer Interaction?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35035, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Artificial Intelligence?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35037, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Embedded System Design and Development?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35039, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Big Data Analysis?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is DSB23018, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Cryptography?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is DSB33033, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Web Design and Development?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB25022, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Advanced Web Design – EM3?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35049, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Advanced Web Development – EM4?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35050, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Mobile Design and Development?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35036, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for 3D Programming?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB45028, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Introduction to Human–Computer Interaction?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB33059, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Testing and Reliable Software?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35040, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Information Security?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35041, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Malware Analysis – EM6?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB43047, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Internet of Things?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB43058, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Software Industry and Engineer Works (EM2)?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB45043, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Software Development Best Practices – EM5?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB45051, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Game Programming?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB45052, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Software Project Management?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB35038, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Individual Project?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB45060, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Development and Operations?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB42053, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Graduation Project?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB410046, worth 10 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Academic Skills?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB12001, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Applied Computer Skills?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB12002, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Communication Skills?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB12003, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Personal Development Planning?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB13004, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Design Thinking?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB13116, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for System Engineering Project – Core?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB22023, worth 2 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for System Engineering Project – Practice?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB33048, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Internship?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is CSB310042, worth 10 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for Academic Writing?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB14134, worth 4 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for English for Academic Purposes 1?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB14137, worth 4 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for English for Academic Purposes 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB15138, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for English for Academic Purposes 3?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is BEB15139, worth 5 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the course code for English for IT?"
+      },
+      {
+        "role": "assistant",
+        "content": "The course code is DSB13002, worth 3 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the minimum credit requirement for graduation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Students need 152 credits to graduate, though the total program can include up to 210 credits with electives and non-graded courses."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the general knowledge segment?"
+      },
+      {
+        "role": "assistant",
+        "content": "The general knowledge segment totals 41 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the foundational segment?"
+      },
+      {
+        "role": "assistant",
+        "content": "The foundational segment totals 31 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are in the specialized segment?"
+      },
+      {
+        "role": "assistant",
+        "content": "The specialized segment totals 60 credits."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many credits are allocated to internship and thesis?"
+      },
+      {
+        "role": "assistant",
+        "content": "Internship and thesis together account for 20 credits."
+      }
+    ]
+  }
+]
