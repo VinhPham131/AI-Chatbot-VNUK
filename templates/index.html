@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VNUK ChatBot<img scr="../static/images/logo.png"></title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <!-- WELCOME SCREEN -->
+    <div class="welcome-screen" id="welcomeScreen">
+        <div class="welcome-content">
+            <div class="welcome-logo">
+                <div class="logo-circle">
+                    <img src="../static/images/logo.png" alt="VNUK Logo">
+                </div>
+                <p>Chatbot Assistant</p>
+            </div>
+            <div class="welcome-text">
+                <h2>Welcome to VNUK Institute</h2>
+                <p>Your AI-powered assistant for admissions, programs, and scholarships</p>
+            </div>
+            <button class="start-chat-button" onclick="startChat()">
+                <span>Start Conversation</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </button>
+            <div class="welcome-features">
+                <div class="feature-item" onclick="startChatWithCategory('Academic program')">
+                    <span class="feature-icon">📚</span>
+                    <span>Academic Programs</span>
+                </div>
+                <div class="feature-item" onclick="startChatWithCategory('Admission & Institutional Information')">
+                    <span class="feature-icon">🎓</span>
+                    <span>Admissions</span>
+                </div>
+                <div class="feature-item" onclick="startChatWithCategory('Scholarships & Tuition')">
+                    <span class="feature-icon">💰</span>
+                    <span>Scholarships</span>
+                </div>
+                <div class="feature-item" onclick="startChatWithCategory('Study Abroad & Partnership Opportunities')">
+                    <span class="feature-icon">🌍</span>
+                    <span>Study Abroad</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHAT CONTAINER -->
+    <div class="chat-container" id="chatContainer" style="display: none;">
+        <div class="chat-header">
+            <button class="clear-chat-button" onclick="clearChat()" title="Clear Chat">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"></path>
+                </svg>
+            </button>
+            <img src="../static/images/logo.png" alt="VNUK Logo" class="chat-logo">
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <div class="message-content">
+                    <div class="welcome-message">
+                        Hello! How can I help you? Please select one of the following categories:
+                    </div>
+                    <div class="categories-container" id="categoriesContainer">
+                        <div class="category-card" onclick="selectCategory('Academic program')">
+                            <span class="category-title">Academic program</span>
+                        </div>
+                        <div class="category-card" onclick="selectCategory('Admission & Institutional Information')">
+                            <span class="category-title">Admission & Institutional Information</span>
+                        </div>
+                        <div class="category-card" onclick="selectCategory('Study Abroad & Partnership Opportunities')">
+                            <span class="category-title">Study Abroad & Partnership Opportunities</span>
+                        </div>
+                        <div class="category-card" onclick="selectCategory('Scholarships & Tuition')">
+                            <span class="category-title">Scholarships & Tuition</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input-container">
+            <div class="chat-input-wrapper">
+                <textarea 
+                    class="chat-input" 
+                    id="chatInput" 
+                    placeholder="Enter a prompt here"
+                    rows="1"
+                    onkeydown="handleKeyDown(event)"
+                    oninput="autoResizeTextarea(this)"
+                ></textarea>
+                <div class="input-actions">
+                    <button class="send-button" onclick="sendMessage()" id="sendButton" disabled>
+                        ↑
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let categoriesShown = true;
+        let isProcessing = false; // Prevent duplicate sends
+
+        // Start chat - general entry
+        function startChat() {
+            const welcomeScreen = document.getElementById('welcomeScreen');
+            const chatContainer = document.getElementById('chatContainer');
+            
+            welcomeScreen.classList.add('fade-out');
+            
+            setTimeout(() => {
+                welcomeScreen.style.display = 'none';
+                chatContainer.style.display = 'flex';
+                chatContainer.classList.add('fade-in');
+            }, 500);
+        }
+
+        // Start chat with specific category
+        function startChatWithCategory(categoryName) {
+            const welcomeScreen = document.getElementById('welcomeScreen');
+            const chatContainer = document.getElementById('chatContainer');
+            
+            welcomeScreen.classList.add('fade-out');
+            
+            setTimeout(() => {
+                welcomeScreen.style.display = 'none';
+                chatContainer.style.display = 'flex';
+                chatContainer.classList.add('fade-in');
+                
+                // Hide categories and select the category
+                setTimeout(() => {
+                    categoriesShown = false;
+                    document.getElementById('categoriesContainer').style.display = 'none';
+                    addMessage(categoryName, 'user');
+                    showTypingIndicator();
+                    
+                    setTimeout(() => {
+                        hideTypingIndicator();
+                        addMessage(`You have selected: ${categoryName}. I can help you with information about this topic. What would you like to know specifically?`, 'bot');
+                    }, 1000);
+                }, 100);
+            }, 500);
+        }
+
+        // Auto-resize textarea
+        function autoResizeTextarea(textarea) {
+            textarea.style.height = 'auto';
+            textarea.style.height = Math.min(textarea.scrollHeight, 200) + 'px';
+            
+            const sendButton = document.getElementById('sendButton');
+            sendButton.disabled = textarea.value.trim() === '';
+        }
+
+        // Handle Enter key
+        function handleKeyDown(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                if (!isProcessing) {
+                    sendMessage();
+                }
+            }
+        }
+
+        function selectCategory(categoryName) {
+            if (!categoriesShown || isProcessing) return;
+            
+            isProcessing = true;
+            categoriesShown = false;
+            const categoriesContainer = document.getElementById('categoriesContainer');
+            categoriesContainer.style.display = 'none';
+            
+            addMessage(categoryName, 'user');
+            showTypingIndicator();
+            
+            setTimeout(() => {
+                hideTypingIndicator();
+                addMessage(`You have selected: ${categoryName}. I can help you with information about this topic. What would you like to know specifically?`, 'bot');
+                isProcessing = false;
+            }, 1000);
+        }
+
+        function addMessage(text, sender) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.textContent = text;
+            
+            messageDiv.appendChild(contentDiv);
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function showTypingIndicator() {
+            const chatMessages = document.getElementById('chatMessages');
+            
+            // Remove existing typing indicator if any
+            const existingTyping = document.getElementById('typingIndicator');
+            if (existingTyping) {
+                existingTyping.remove();
+            }
+            
+            // Create new typing indicator as a message wrapper
+            const typingWrapper = document.createElement('div');
+            typingWrapper.className = 'message bot typing-wrapper';
+            typingWrapper.id = 'typingIndicator';
+            
+            typingWrapper.innerHTML = `
+                <div class="typing-indicator active">
+                    <div class="typing-dots">
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                    </div>
+                </div>
+            `;
+            
+            chatMessages.appendChild(typingWrapper);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function hideTypingIndicator() {
+            const typingDiv = document.getElementById('typingIndicator');
+            if (typingDiv) {
+                typingDiv.remove();
+            }
+        }
+
+        async function sendMessage() {
+            if (isProcessing) return; // Prevent duplicate sends
+            
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            
+            if (message === '') return;
+            
+            isProcessing = true;
+            
+            if (categoriesShown) {
+                categoriesShown = false;
+                document.getElementById('categoriesContainer').style.display = 'none';
+            }
+            
+            addMessage(message, 'user');
+            
+            // Clear input immediately after getting the value
+            input.value = '';
+            input.style.height = 'auto';
+            input.focus(); // Keep focus on input
+            
+            // Disable send button
+            document.getElementById('sendButton').disabled = true;
+            
+            showTypingIndicator();
+            
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        max_tokens: 512
+                    })
+                });
+
+                hideTypingIndicator();
+
+                const chatMessages = document.getElementById('chatMessages');
+                const messageDiv = document.createElement('div');
+                messageDiv.className = 'message bot';
+
+                const contentDiv = document.createElement('div');
+                contentDiv.className = 'message-content';
+                messageDiv.appendChild(contentDiv);
+                chatMessages.appendChild(messageDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+
+                if (!response.ok || !response.body) {
+                    contentDiv.textContent = 'Sorry, there was an error processing your request.';
+                } else {
+                    const reader = response.body.getReader();
+                    const decoder = new TextDecoder();
+
+                    while (true) {
+                        const { done, value } = await reader.read();
+                        if (done) break;
+                        const chunk = decoder.decode(value, { stream: true });
+                        contentDiv.textContent += chunk;
+                        chatMessages.scrollTop = chatMessages.scrollHeight;
+                    }
+                }
+            } catch (error) {
+                hideTypingIndicator();
+                addMessage('Sorry, there was a network error. Please try again.', 'bot');
+            } finally {
+                isProcessing = false;
+            }
+        }
+
+        function clearChat() {
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.innerHTML = '';
+            categoriesShown = true;
+            isProcessing = false;
+            
+            const welcomeDiv = document.createElement('div');
+            welcomeDiv.className = 'message bot';
+            welcomeDiv.innerHTML = `
+                <div class="message-content">
+                    <div class="welcome-message">
+                        Hello! How can I help you? Please select one of the following categories:
+                    </div>
+                    <div class="categories-container" id="categoriesContainer">
+                        <div class="category-card" onclick="selectCategory('Academic program')">
+                            <span class="category-title">Academic program</span>
+                        </div>
+                        <div class="category-card" onclick="selectCategory('Admission & Institutional Information')">
+                            <span class="category-title">Admission & Institutional Information</span>
+                        </div>
+                        <div class="category-card" onclick="selectCategory('Study Abroad & Partnership Opportunities')">
+                            <span class="category-title">Study Abroad & Partnership Opportunities</span>
+                        </div>
+                        <div class="category-card" onclick="selectCategory('Scholarships & Tuition')">
+                            <span class="category-title">Scholarships & Tuition</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            chatMessages.appendChild(welcomeDiv);
+        }
+    </script>
+</body>
+</html>
