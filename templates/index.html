@@ -60,25 +60,7 @@
         
         <div class="chat-messages" id="chatMessages">
             <div class="message bot">
-                <div class="message-content">
-                    <div class="welcome-message">
-                        Hello! How can I help you? Please select one of the following categories:
-                    </div>
-                    <div class="categories-container" id="categoriesContainer">
-                        <div class="category-card" onclick="selectCategory('Academic program')">
-                            <span class="category-title">Academic program</span>
-                        </div>
-                        <div class="category-card" onclick="selectCategory('Admission & Institutional Information')">
-                            <span class="category-title">Admission & Institutional Information</span>
-                        </div>
-                        <div class="category-card" onclick="selectCategory('Study Abroad & Partnership Opportunities')">
-                            <span class="category-title">Study Abroad & Partnership Opportunities</span>
-                        </div>
-                        <div class="category-card" onclick="selectCategory('Scholarships & Tuition')">
-                            <span class="category-title">Scholarships & Tuition</span>
-                        </div>
-                    </div>
-                </div>
+                <div class="message-content">Hello! Welcome to VNUK ChatBot. How can I assist you today?</div>
             </div>
         </div>
 
@@ -242,11 +224,6 @@
             
             isProcessing = true;
             
-            if (categoriesShown) {
-                categoriesShown = false;
-                document.getElementById('categoriesContainer').style.display = 'none';
-            }
-            
             addMessage(message, 'user');
             
             // Clear input immediately after getting the value
@@ -314,25 +291,7 @@
             const welcomeDiv = document.createElement('div');
             welcomeDiv.className = 'message bot';
             welcomeDiv.innerHTML = `
-                <div class="message-content">
-                    <div class="welcome-message">
-                        Hello! How can I help you? Please select one of the following categories:
-                    </div>
-                    <div class="categories-container" id="categoriesContainer">
-                        <div class="category-card" onclick="selectCategory('Academic program')">
-                            <span class="category-title">Academic program</span>
-                        </div>
-                        <div class="category-card" onclick="selectCategory('Admission & Institutional Information')">
-                            <span class="category-title">Admission & Institutional Information</span>
-                        </div>
-                        <div class="category-card" onclick="selectCategory('Study Abroad & Partnership Opportunities')">
-                            <span class="category-title">Study Abroad & Partnership Opportunities</span>
-                        </div>
-                        <div class="category-card" onclick="selectCategory('Scholarships & Tuition')">
-                            <span class="category-title">Scholarships & Tuition</span>
-                        </div>
-                    </div>
-                </div>
+                      <div class="message-content">Hello! Welcome to VNUK ChatBot. How can I assist you today?</div>
             `;
             chatMessages.appendChild(welcomeDiv);
         }
