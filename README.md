@@ -3,6 +3,8 @@
 ##
 An AI-powered chatbot assistant for VNUK Institute, designed to help students and prospective students with information about academic programs, admissions, scholarships, and study abroad opportunities.
 
+## Demo
+Following this link: **https://drive.google.com/file/d/1enQHBHcWwBxt1Oz1E7KDDWKlwDDuv9KQ/view?usp=drive_link**
 ## 🎯 Overview
 
 This chatbot provides an intelligent, conversational interface for answering questions about VNUK Institute. It uses a fine-tuned LLaMA 3 model optimized with Apple's MLX framework for efficient inference, enabling fast and responsive interactions.
@@ -16,6 +18,28 @@ This chatbot provides an intelligent, conversational interface for answering que
 - **Streaming Responses**: Real-time text generation for a smooth conversational experience
 - **MLX-Optimized**: Uses Apple's MLX framework for efficient model inference on Apple Silicon
 - **Responsive Design**: Clean, modern UI with smooth animations and transitions
+
+## 🧠 Model Summary & Performance
+The chatbot is powered by the Meta-Llama-3-8B-Instruct architecture, representing the cutting edge of open-source local LLMs.
+### 🔬 Technical Specifications
+- Base Model: Meta-Llama-3-8B-Instruct
+- Architecture: Optimized Transformer with Grouped-Query Attention (GQA).
+- Quantization: 6-bit (Q6_K) via MLX (balancing speed and reasoning depth).
+- Context Length: 8,192 tokens.
+- Training Foundation: 15 Trillion+ tokens.
+### 📊 Baseline Model Performance (Reported by Meta)
+The following metrics are baseline results of the original Meta-Llama-3-8B-Instruct model, as reported by Meta AI. These results are provided for reference only and serve as a comparison point for downstream fine-tuning.
+| Benchmark              | Evaluation Setting | Score |
+|------------------------|--------------------|-------|
+| **MMLU**               | 5-shot             | ~68.4 |
+| **ARC Challenge**      | Few-shot           | ~59.4 |
+| **HellaSwag**          | Zero/Few-shot      | ~82.8 |
+| **GSM8K**              | 8-shot             | ~77.4 |
+| **TruthfulQA**         | 0-shot             | ~58.1 |
+| **WinoGrande**         | Zero/Few-shot      | ~77.9 |
+
+**Note:**  
+These scores are reported by Meta AI for the **Meta-Llama-3-8B-Instruct** base model and are provided for reference only. Actual performance may vary after fine-tuning, quantization, and deployment using MLX on Apple Silicon.
 
 ## 🛠️ Technology Stack
 
